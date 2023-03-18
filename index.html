@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Santiago Betancur Portfolio">
+
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/normalizar.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/components/header.css" />
+    <link rel="stylesheet" href="./styles/components/hero.css" />
+    <link rel="stylesheet" href="./styles/components/about.css" />
+    <link rel="stylesheet" href="./styles/components/proyectos.css" />
+    <link rel="stylesheet" href="./styles/components/contact.css" />
+    <link rel="stylesheet" href="./styles/components/footer.css" />
+
+    <title>Cecilia Coronel</title>
+</head>
+
+<body>
+    <header class="header-container">
+        <div class="header">
+            <h1>
+                <a href="#" class="header__logo">
+                    <span class="dot">Cess.</span>
+                </a>
+            </h1>
+
+
+
+            <nav class="header__nav">
+                <button class="header__menuBtn" aria-label="openMenu">
+                    <i class="fa-solid fa-bars header__menuBtn__icon"></i>
+                </button>
+
+                <div class="header__nav__list__container">
+                    <ul class="header__nav__list">
+                        <li class="header__nav--item">
+                            <a href="#" class="header__nav__link">Inicio</a>
+                        </li>
+                        <li class="header__nav--item">
+                            <a href="#about" class="header__nav__link">Acerca de</a>
+                        </li>
+                        <li class="header__nav--item">
+                            <a href="#portfolio" class="header__nav__link">Proyectos</a>
+                        </li>
+                        <li class="header__nav--item">
+                            <a href="#contact" class="header__nav__link">Contacto</a>
+                        </li>
+
+                        <div class="header__nav__icon__container">
+                            <a href="https://www.linkedin.com/in/cecilia-coronel-dev/" class="header__nav__icon"
+                                target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/Cesscoronel89" target="_blank" class="header__nav__icon">
+                                <i class="fa-brands fa-github "></i>
+                            </a>
+
+                        </div>
+
+                        <button class="header__closeBtn" aria-label="closeMenu">
+                            <i class="fa-solid fa-xmark header__menuBtn__icon"></i>
+                        </button>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-container">
+            <div class="hero">
+                <div class="hero__info">
+                    <div class="hero__text">
+                        <p class="hero__text--greeting">Hola, soy Cecilia 👋</p>
+                        <h2 class="hero__text--title">Estudiante de Desarrollo Web</h2>
+                        <p class="hero__text--desc">
+                            Y futura Dev Frontend
+                        </p>
+                    </div>
+
+                    <div class="hero__buttons">
+                        <a class="btn" href="./imagenes/Cv-2023.pdf" target="_blank">Curriculum <i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="#portfolio" class="btn btn--filled">Mis Proyectos <i
+                                class="fa-solid fa-arrow-right btn__arrow-icon"></i></a>
+                    </div>
+                </div>
+
+                <img class="hero__img" src="./imagenes/img-principal.jpg" alt="Santiago Betancur" class="hero__img"
+                    width="200" height="200" />
+            </div>
+        </section>
+        <section class="about-container" id="about">
+            <div class="about">
+                <div class="about__txt">
+                    <h2 class="about__txt--title">Acerca de mí<span class="dot">.<span></h2>
+                    <p class="about__txt--desc">
+                    Mi nombre es Cecilia, vivo en la provincia de Misiones Argentina, actualmente me encuentro desarrollando este apasionante camino de la programación; soy una persona inquieta intelectualmente hablando. Me considero dinámica en el ámbito del apredizaje y me estoy esforzando por lograr este objetivo que me propuse de iniciarme en el rubro IT. Busco absorber la mayor cantidad de conocimiento posible de la manera más eficiente. <br>
+                    Disfruto mucho la música en general y me encanta ver peliculas y series, los tiempos libres conmigo misma son lo mejor pero tambien puedo ser muy sociable de acuerdo al entorno.
+                    Busco ampliar mi desarrollo personal y profesional logrando los objetivos y ambiciones que tengo para el futuro.
+
+                    </p>
+                </div>
+
+                <div class="about__skills">
+                    <h3 class="about__skills--title">Habilidades:</h3>
+                    <ul class="about__skills--list">
+                        <li class="about__skills--item">
+                            HTML
+                        </li>
+                        <li class="about__skills--item">
+                            CSS
+                        </li>
+                        <li class="about__skills--item">
+                            JavaScript
+                        </li>
+                        <li class="about__skills--item">
+                            Git
+                        </li>
+                        <li class="about__skills--item">
+                            Github
+                        </li>
+                </div>
+
+                <div class="about__studies">
+                    <h3 class="about__studies--title">Formación:</h3>
+                    <ul class="about__studies--list">
+                        <li class="about__studies--item">
+                            Desarrollo Web Front End
+                            <span class="about__studies--date">
+                                <br>
+                                UTN.BA Ciudad de Buenos Aires
+                                <br>
+                                2022
+                            </span>
+                        </li>
+                        <li class="about__studies--item">
+                            Desarrollo Web Frontend
+                            <span class="about__studies--date">
+                                <br>
+                                Alura- Oracle Next Education
+                                <br>
+                                2022 - Actualidad
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="portfolio-container" id="portfolio">
+            <div class="portfolio">
+                <h2 class="portfolio__title">Mis Proyectos<span class="dot">.</span></h2>
+                <div class="portfolio__cards-container">
+
+                    <div class="portfolio__card">
+                        <img src="./imagenes/encriptador.png" alt="Portfolio Image" class="portfolio__card--img" />
+                        <div class="portfolio__card--info">
+                            <h3 class="portfolio__card--title">Encriptador</h3>
+                            <p class="portfolio__card--desc">
+                                Desafio plateado desde el curso de Alura , para poner en practica lo aprendido durante el módulo.
+                            </p>
+                            <div class="portfolio__card--button-container">
+                                <a href="https://github.com/Cesscoronel89/challenge1-nextOne" class="portfolio__card--btn btn">
+                                    Código <i class="fa-brands fa-github card__btn-icon"></i>
+                                </a>
+                                <a href="https://cesscoronel89.github.io/challenge1-nextOne/" class="portfolio__card--btn btn btn--filled ">
+                                    Demo <i class="fa-solid fa-arrow-up-right-from-square card__btn-icon"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="portfolio__card">
+                        <img src="./imagenes/pag-disney.png" alt="Portfolio Image" class="portfolio__card--img" />
+                        <div class="portfolio__card--info">
+                            <h3 class="portfolio__card--title">Pagina Disney</h3>
+                            <p class="portfolio__card--desc">
+                                Proyecto para explorar la creatividad y utilizar un topic que me interese o me guste.
+                            </p>
+                            <div class="portfolio__card--button-container">
+                                <a href="https://github.com/Cesscoronel89/disney-classic" class="portfolio__card--btn btn">
+                                    Código <i class="fa-brands fa-github card__btn-icon"></i>
+                                </a>
+                                <a href="https://cesscoronel89.github.io/disney-classic/" class="portfolio__card--btn btn btn--filled ">
+                                    Demo <i class="fa-solid fa-arrow-up-right-from-square card__btn-icon"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="portfolio__card">
+                        <img src="./imagenes/britney.png" alt="Portfolio Image" class="portfolio__card--img" />
+                        <div class="portfolio__card--info">
+                            <h3 class="portfolio__card--title">Pagina Britney Spears</h3>
+                            <p class="portfolio__card--desc">
+                                Pagina de mi artista favorita, proyecto solicitado por el curso de Front End de la UTN.
+                            </p>
+                            <div class="portfolio__card--button-container">
+                                <a href="https://github.com/Cesscoronel89/britney" class="portfolio__card--btn btn">
+                                    Código <i class="fa-brands fa-github card__btn-icon"></i>
+                                </a>
+                                <a href="https://cesscoronel89.github.io/britney/index.html" class="portfolio__card--btn btn btn--filled ">
+                                    Demo <i class="fa-solid fa-arrow-up-right-from-square card__btn-icon"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="contact-container" id="contact">
+            <div class="contact-bg">
+                <div class="contact">
+
+                    <form target="_blank" action="https://formsubmit.co/cecycoronel89@gmail.com" method="POST" class="contact__form" name="contactForm" id="contact-form">
+                        <h2 class="contact__title">Contacto<span class="dot">.</span></h2>
+                        <div class="contact__form--group">
+                            <label for="name" class="contact__form--label">Nombre</label>
+                            <input type="text" name="name" id="name" class="contact__form--input" />
+                            <span class="input-invalid__message"></span>
+                        </div>
+                        <div class="contact__form--group">
+                            <label for="email" class="contact__form--label">Correo</label>
+                            <input type="email" name="email" id="email" class="contact__form--input" />
+                            <span class="input-invalid__message"></span>
+                        </div>
+
+                        <div class="contact__form--group">
+                            <label for="subject" class="contact__form--label">Asunto</label>
+                            <input type="text" name="subject" id="subject" class="contact__form--input" />
+                            <span class="input-invalid__message"></span>
+                        </div>
+                        <div class="contact__form--group">
+                            <label for="message" class="contact__form--label">Mensaje</label>
+                            <textarea name="message" id="message" cols="30" rows="10"
+                                class="contact__form--input"></textarea>
+                            <span class="input-invalid__message"></span>
+                        </div>
+
+                        <button name="submitBtn" type="submit" class="contact__form--btn">Enviar</button>
+                        <p class="message">* El formulario esta en desarrollo de funcionalidad (coming soon) </p>
+
+                    </form>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer-container">
+        <div class="footer">
+            <p class="footer__text"> Codificado por <a href="https://www.instagram.com/cess_coronel/">cess_coronel</a></p>
+        </div>
+    </footer>
+
+    <script src="./js/headerMenu.js"></script>
+    <script src="./js/formValidation.js"></script>
+</body>
+
+</html>
